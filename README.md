@@ -86,6 +86,7 @@ I don't care for frontend
 | **!!Nginx**                          | Reverse proxy Jenkins, Ingress controller for Shuttleday API in K8s cluster                        |
 | **!!AWS**                            | Cloud provider, hosts virtual machine to run Jenkins                                               |
 | **!DigitalOcean**                    | Cloud provider, hosts Kubernetes cluster                                                           |
+| **!Proxmox**                         | Type 1 Hypervisor for my Homelab VMs                                                               |
 | **!Cloudflare**                      | DNS service provider.                                                                              |
 | **!!Terraform**                      | By code, defines what Cloudflare, DigitalOcean and AWS resources to provision                      |
 | **!!Ansible**                        | By code, defines what software to install and configurations to perform on the provisioned AWS VMs |
