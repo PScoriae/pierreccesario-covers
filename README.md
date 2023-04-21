@@ -40,6 +40,8 @@ This doc contains some notes for you to understand the context of the technologi
 
 Categorised per project. Items prepended with an exclamation mark **(!)** and bolded are the highlights of the project. More exclamation marks means more important.
 
+Currently, [pierreccesario.com](https://pierreccesario.com) has covers that are in the aspect ratio 3.84:1. The covers can be of any ratio, though.
+
 # Marketing Guidelines and Variations
 
 There's a lot of variations available. Any additional ones and their guidelines will be listed here with hyperlinks.
