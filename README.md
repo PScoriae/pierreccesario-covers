@@ -3,6 +3,8 @@
 [terraform]: https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white
 [ansible]: https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white
 [cloudflare]: https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white
+[digitalocean]: https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=DigitalOcean&logoColor=white
+[proxmox]: https://img.shields.io/badge/Proxmox-000000?style=for-the-badge&logo=Proxmox&logoColor=orange
 [jenkins]: https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white
 [github]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [hugo]: https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white
@@ -68,12 +70,12 @@ I don't care for frontend
 
 ## Tech Stack
 
-| Infrastructure                   | Continuous Integration | Container Orchestration | Backend                          | Frontend                        |
-| -------------------------------- | ---------------------- | ----------------------- | -------------------------------- | ------------------------------- |
-| ![][aws] <br> ![][redhat]        | ![][jenkins]           | ![][kubernetes]         | ![][mongodb]                     | ![][react] <br> ![][javascript] |
-| ![][terraform] <br> ![][ansible] | ![][jest]              | ![][argocd]             | ![][nodejs] <br> ![][typescript] | ![][webpack]                    |
-| ![][nginx]                       | ![][docker]            |                         | ![][expressjs] <br> ![][jwt]     | ![][material-ui]                |
-| ![][cloudflare]                  |                        |                         |                                  |                                 |
+| Infrastructure                                    | Continuous Integration | Container Orchestration | Backend                      | Frontend         |
+| ------------------------------------------------- | ---------------------- | ----------------------- | ---------------------------- | ---------------- |
+| ![][aws] <br> ![][digitalocean] <br> ![][Proxmox] | ![][jenkins]           | ![][kubernetes]         | ![][mongodb]                 | ![][react]       |
+| ![][redhat]                                       | ![][docker]            | ![][argocd]             | ![][typescript]              | ![][javascript]  |
+| ![][terraform] <br> ![][ansible]                  | ![][jest]              |                         | ![][nodejs]                  | ![][webpack]     |
+| ![][nginx] <br> ![][cloudflare]                   |                        |                         | ![][expressjs] <br> ![][jwt] | ![][material-ui] |
 
 | Item                                 | Description/Use                                                                                    |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------- |
