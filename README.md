@@ -1,8 +1,10 @@
 [aws]: https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white
 [redhat]: https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white
+[ubuntu]: https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white
 [terraform]: https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white
 [ansible]: https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white
 [cloudflare]: https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white
+[cloudflared]: https://img.shields.io/badge/Cloudflare%20Tunnel-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white
 [digitalocean]: https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=DigitalOcean&logoColor=white
 [proxmox]: https://img.shields.io/badge/Proxmox-000000?style=for-the-badge&logo=Proxmox&logoColor=orange
 [jenkins]: https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white
@@ -33,6 +35,10 @@
 [javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [webpack]: https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white
 [material-ui]: https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white
+[wireguard]: https://img.shields.io/badge/Wireguard-741f1b?style=for-the-badge&logo=wireguard&logoColor=white
+[gitlab]: https://img.shields.io/badge/GitLab-fc6d26?style=for-the-badge&logo=gitlab&logoColor=white
+[adguard-home]: https://img.shields.io/badge/Adguard%20Home-68BC71?style=for-the-badge&logo=adguard&logoColor=white
+[samba]: https://img.shields.io/badge/Samba-000000?style=for-the-badge&logoColor=white
 
 # Notes
 
@@ -102,6 +108,34 @@ I don't care for frontend
 | Material UI                          | Frontend component library                                                                         |
 | GitHub                               | Code repository                                                                                    |
 | Jest                                 | Testing framework                                                                                  |
+
+# Servy
+
+Homelab/Home server. Used for hosting personal services and as a staging environment.
+
+## Tech Stack
+
+| Operating Systems | Networking       | Container Orchestration | Git         | Misc              |
+| ----------------- | ---------------- | ----------------------- | ----------- | ----------------- |
+| ![][Proxmox]      | ![][cloudflared] | ![][kubernetes]         | ![][gitlab] | ![][adguard-home] |
+| ![][redhat]       | ![][wireguard]   | ![][docker]             |             | ![][samba]        |
+| ![][ubuntu]       | ![][nginx]       | ![][argocd]             |
+
+| Item                                 | Description/Use                                                                                               |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| **!!Docker**                         | Containerises application for easy management and deployment                                                  |
+| **!!Kubernetes (K8s)**               | Container orchestration. Staging environemnt.                                                                 |
+| **!!ArgoCD**                         | Continuous Deployment service. Automates new version deployments on commit to Git                             |
+| **!!Terraform**                      | By code, defines what Proxmox resources to provision                                                          |
+| **!!Ansible**                        | By code, defines what software to install and configurations to perform on the provisioned VMs and containers |
+| **!Red Hat Enterprise Linux (RHEL)** | Linux distribution                                                                                            |
+| **!Proxmox**                         | Type 1 Hypervisor for my Homelab VMs                                                                          |
+| **!Ubuntu**                          | Linux distribution                                                                                            |
+| **!Nginx**                           | Internal reverse proxy                                                                                        |
+| GitLab                               | Code repository                                                                                               |
+| Adguard Home                         | Network-wide DNS adblocking                                                                                   |
+| Wireguard                            | Home VPN server                                                                                               |
+| Samba                                | SMB File Share for backups and Time Machine                                                                   |
 
 # PCPartsTool
 
