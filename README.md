@@ -39,6 +39,8 @@
 [gitlab]: https://img.shields.io/badge/GitLab-fc6d26?style=for-the-badge&logo=gitlab&logoColor=white
 [adguard-home]: https://img.shields.io/badge/Adguard%20Home-68BC71?style=for-the-badge&logo=adguard&logoColor=white
 [samba]: https://img.shields.io/badge/Samba-000000?style=for-the-badge&logoColor=white
+[vite]: https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E
+[github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white
 
 # Notes
 
@@ -76,18 +78,19 @@ I don't care for frontend
 
 ## Tech Stack
 
-| Infrastructure                                    | Continuous Integration | Container Orchestration | Backend                      | Frontend         |
-| ------------------------------------------------- | ---------------------- | ----------------------- | ---------------------------- | ---------------- |
-| ![][aws] <br> ![][digitalocean] <br> ![][Proxmox] | ![][jenkins]           | ![][kubernetes]         | ![][mongodb]                 | ![][react]       |
-| ![][redhat]                                       | ![][docker]            | ![][argocd]             | ![][typescript]              | ![][javascript]  |
-| ![][terraform] <br> ![][ansible]                  | ![][jest]              |                         | ![][nodejs]                  | ![][webpack]     |
-| ![][nginx] <br> ![][cloudflare]                   |                        |                         | ![][expressjs] <br> ![][jwt] | ![][material-ui] |
+| Infrastructure                                    | Continuous Integration | Container Orchestration | Backend                      | Frontend                  |
+| ------------------------------------------------- | ---------------------- | ----------------------- | ---------------------------- | ------------------------- |
+| ![][aws] <br> ![][digitalocean] <br> ![][Proxmox] | ![][github-actions]    | ![][kubernetes]         | ![][mongodb]                 | ![][react] <br> ![][vite] |
+| ![][redhat]                                       | ![][docker]            | ![][argocd]             | ![][typescript]              | ![][javascript]           |
+| ![][terraform] <br> ![][ansible]                  | ![][jest]              |                         | ![][nodejs]                  | ![][tailwind]             |
+| ![][nginx] <br> ![][cloudflare]                   |                        |                         | ![][expressjs] <br> ![][jwt] | ![][material-ui]          |
 
 | Item                                 | Description/Use                                                                                    |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | **!!Docker**                         | Containerises application for easy management and deployment                                       |
 | **!!Kubernetes (K8s)**               | Container orchestration.                                                                           |
-| **!!Jenkins**                        | Continuous Integration service. Automates code tests and validation on commit to Git               |
+| **!!GitHub Actions**                 | Continuous Integration service. Automates code tests, builds and validation on commit to Git       |
+| **!!Jenkins (Legacy)**               | Continuous Integration service. Automates code tests, builds and validation on commit to Git       |
 | **!!ArgoCD**                         | Continuous Deployment service. Automates new version deployments on commit to Git                  |
 | **!!Nginx**                          | Reverse proxy Jenkins, Ingress controller for Shuttleday API in K8s cluster                        |
 | **!!AWS**                            | Cloud provider, hosts virtual machine to run Jenkins                                               |
